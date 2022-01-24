@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #f0fff0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: mintcream;
+  background-color: #ffd700;
+  max-height: 150px;
+}
+
+.name {
+  color: white;
+  font-size: 2rem;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.container {
+  width: 20%;
+  margin: auto;
+  margin-top: 24px;
+  background: #e6e6fa;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px 2px #9370db;
+}
+.title,
+.note {
+  background: #e6e6fa;
+  border: none;
+  padding: 8px;
+  margin: 12px;
+  border-bottom: 2px solid #add8e6;
+  resize: none;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.add-btn {
+  width: 50%;
+  align-self: center;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  height: 30px;
+  vertical-align: middle;
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
+}
+.add-btn:hover {
+  transform: scale(1.2);
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 32px;
+  align-items: center;
+}
+.card {
+  background: #ffffe0;
+  border-radius: 8px;
+  width: 240px;
+  overflow-wrap: break-word;
+  white-space: normal;
+  padding: 6px;
+  font-family: "Mochiy Pop P One", sans-serif;
+  box-shadow: -1px 1px 1px 1px #ffd700;
+}
+.delete-btn {
+  width: 30%;
+  align-self: center;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  height: 20px;
+  vertical-align: middle;
+  margin: 4px;
+  float: right;
+  font-weight: bold;
+  background: #bc8f8f;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  transform: scale(1.2);
+}
